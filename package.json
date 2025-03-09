@@ -1,0 +1,24 @@
+{
+  "name": "leetstats",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubh0206/LeetStats-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubh0206/LeetStats-/issues"
+  },
+  "homepage": "https://github.com/shubh0206/LeetStats-#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
