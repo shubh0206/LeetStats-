@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
             searchButton.textContent = "Searching...";
             searchButton.disabled = true;
 
-            const response = await fetch('http://localhost:3000/leetcode', {
+            // Updated URL to point to Render backend
+            const response = await fetch('https://leetstats-4.onrender.com/leetcode', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
